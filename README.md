@@ -4,13 +4,13 @@ Example SAMP server, on PySAMP.
 ## File Structure:
 - components
 - **gamemodes**
---- blank.amx
+  - blank.amx
 - **plugins**
---- PySAMP.dll
+  - PySAMP.dll
 - **pysamp**
-  --
+  - pysamp files...
 - **python**
-  -- your gamemode...
+  - your gamemode...
 - qawno
 - scriptfiles
 - config.json
