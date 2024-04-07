@@ -9,7 +9,7 @@ class Player(BasePlayer):
         super().__init__(player_id)
 
     @classmethod
-    def from_pool(cls: BasePlayer, player) -> BasePlayer:
+    def from_pool(cls: BasePlayer, player) -> "Player":
         if isinstance(player, int):
             player_id = player
         

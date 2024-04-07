@@ -1,0 +1,122 @@
+Starting open.mp server (1.2.0.2670) from commit 41ebf182bf73dc9cb11841bfe6b0179ba31f9dd5
+Loading component Actors.dll
+	Successfully loaded component Actors (1.2.0.2670) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.2.0.2670) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.2.0.2670) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.2.0.2670) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.2.0.2670) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.2.0.2670) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.2.0.2670) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.2.0.2670) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.2.0.2670) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.2.0.2670) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.2.0.2670) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.2.0.2670) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.2.0.2670) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.2.0.2670) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.2.0.2670) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.2.0.2670) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.2.0.2670) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.2.0.2670) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.2.0.2670) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.2.0.2670) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.2.0.2670) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\ASKIT\Desktop\PySAMP-Template\components
+[2024-04-08T01:11:40+0300] [Info] Loading plugin: PySAMP.dll
+[2024-04-08T01:11:40+0300] [Info] 
+PySAMP 2.1.0 (Mar  8 2024 09:02:06) for Python 3.6.8
+
+[2024-04-08T01:11:40+0300] [Info] Loading PySAMP...
+[2024-04-08T01:11:56+0300] [Info] Legacy Network started on port 7777
+[2024-04-08T01:12:27+0300] [Info] [connection] incoming connection: 127.0.0.1:63463 id: 0
+[2024-04-08T01:12:27+0300] [Info] [join] Joseph_Morgan has joined the server (0:127.0.0.1)
+[2024-04-08T01:12:27+0300] [Info] Traceback (most recent call last):
+[2024-04-08T01:12:27+0300] [Info]   File "C:\Users\ASKIT\Desktop\PySAMP-Template\pysamp\callbacks\__init__.py", line 25, in __call__
+[2024-04-08T01:12:27+0300] [Info]     return registry.dispatch(self.name, *args, **kwargs)
+[2024-04-08T01:12:27+0300] [Info]   File "C:\Users\ASKIT\Desktop\PySAMP-Template\pysamp\callbacks\__init__.py", line 123, in dispatch
+[2024-04-08T01:12:27+0300] [Info]     ret = callback(*args, **kwargs)
+[2024-04-08T01:12:27+0300] [Info]   File "C:\Users\ASKIT\Desktop\PySAMP-Template\pysamp\callbacks\__init__.py", line 42, in __call__
+[2024-04-08T01:12:27+0300] [Info]     return self.callback(*args, **kwargs)
+[2024-04-08T01:12:27+0300] [Info]   File "C:\Users\ASKIT\Desktop\PySAMP-Template\pysamp\event.py", line 15, in wrapper
+[2024-04-08T01:12:27+0300] [Info]     return handler(*args_converter(cls, *args))
+[2024-04-08T01:12:27+0300] [Info]   File "C:\Users\ASKIT\Desktop\PySAMP-Template\python\player.py", line 36, in from_pool
+[2024-04-08T01:12:27+0300] [Info]     return func(*args, **kwargs)
+[2024-04-08T01:12:27+0300] [Info]   File "C:\Users\ASKIT\Desktop\PySAMP-Template\python\__init__.py", line 25, in on_player_connect
+[2024-04-08T01:12:27+0300] [Info]     Player.send_client_message(-1, f'Добро пожаловать на сервер, {player.get_name()}!')
+[2024-04-08T01:12:27+0300] [Info] TypeError: Player.send_client_message() missing 1 required positional argument: 'message'
+[2024-04-08T01:12:42+0300] [Info] [part] Joseph_Morgan has left the server (0:1)
+[2024-04-08T01:15:06+0300] [Info] Unloading PySAMP...
+Starting open.mp server (1.2.0.2670) from commit 41ebf182bf73dc9cb11841bfe6b0179ba31f9dd5
+Loading component Actors.dll
+	Successfully loaded component Actors (1.2.0.2670) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.2.0.2670) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.2.0.2670) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.2.0.2670) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.2.0.2670) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.2.0.2670) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.2.0.2670) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.2.0.2670) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.2.0.2670) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.2.0.2670) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.2.0.2670) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.2.0.2670) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.2.0.2670) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.2.0.2670) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.2.0.2670) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.2.0.2670) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.2.0.2670) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.2.0.2670) with UID 2ad8124c5ea257a3
+Loading component Unicode.dll
+	Successfully loaded component Unicode (1.2.0.2670) with UID 8ffb446f8353922b
+Loading component Variables.dll
+	Successfully loaded component Variables (1.2.0.2670) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.2.0.2670) with UID 3f1f62ee9e22ab19
+Loaded 21 component(s) from C:\Users\ASKIT\Desktop\PySAMP-Template\components
+[2024-04-08T01:15:09+0300] [Info] Loading plugin: PySAMP.dll
+[2024-04-08T01:15:09+0300] [Info] 
+PySAMP 2.1.0 (Mar  8 2024 09:02:06) for Python 3.6.8
+
+[2024-04-08T01:15:09+0300] [Info] Loading PySAMP...
+[2024-04-08T01:15:46+0300] [Info] Legacy Network started on port 7777
+[2024-04-08T01:15:48+0300] [Info] [connection] incoming connection: 127.0.0.1:65343 id: 0
+[2024-04-08T01:15:48+0300] [Info] [join] Joseph_Morgan has joined the server (0:127.0.0.1)
+[2024-04-08T01:15:52+0300] [Info] [part] Joseph_Morgan has left the server (0:1)
+[2024-04-08T01:15:56+0300] [Info] Unloading PySAMP...
