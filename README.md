@@ -1,4 +1,4 @@
-# PySAMP-Template v2.1 for python 3.10.4 32 bit.
+# PySAMP-Template v2.1 for python 32 bit.
 Example SAMP server, on PySAMP.
 
 ## File Structure:

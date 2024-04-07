@@ -1,0 +1,24 @@
+{
+    "files.exclude": {
+        ".git": true,
+        ".vscode": true,
+        "**/__pycache__": true,
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false,
+        "bans.json": true,
+        "components": true,
+        "gamemodes": true,
+        "log.txt": true,
+        "models": true,
+        "omp-server.exe": true,
+        "omp-server.pdb": true,
+        "plugins": true,
+        "qawno": true,
+        "scriptfiles": true,
+        "filterscripts": true
+    }
+}

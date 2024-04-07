@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Server",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:/Users/ASKIT/Desktop/PySAMP-Template/run.py",
+            "console": "internalConsole",
+            "justMyCode": true
+        }
+    ]
+}
