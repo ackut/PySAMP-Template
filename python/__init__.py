@@ -22,12 +22,12 @@ def on_gamemode_init():
 @Player.on_connect
 @Player.using_pool  # In all functions that take a player as an argument - use this decorator.
 def on_player_connect(player: Player):
-    player.send_client_message(-1, f'Добро пожаловать на сервер, {player.get_name()}!')
-    send_client_message_to_all(-1, f'Игрок {{90ffaa}}{player.get_name()} {{ffffff}}подключился к серверу!')
+    player.send_client_message(-1, f'Welcome to the server, {player.get_name()}!')
+    send_client_message_to_all(-1, f'Player {{90ffaa}}{player.get_name()} {{ffffffff}} has connected to the server!')
 
 
 @Player.on_disconnect
 @Player.using_pool
 def on_player_disconnect(player: Player, reason: int):
-    send_client_message_to_all(-1, f'Игрок {{90ffaa}}{player.get_name()} {{ffffff}}отключился от сервера!')
+    send_client_message_to_all(-1, f'Player {{90ffaa}}{player.get_name()} {{ffffffff}} has disconnected from the server!')
     Player.remove_from_pool(player)  # When disconnecting a player, be sure to remove him from the pool.
