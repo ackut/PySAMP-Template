@@ -1,10 +1,10 @@
-import samp  # Обязательно импортировать в главный файл (этот). На варнинг внимания не обращать.
-from pysamp import *  # Этот пакет содержит все методы сампа.
-from pysamp.dialog import Dialog  # Это класс для работы с диалогами. Чисто для примера.
-from python.player import Player  # Это кастомный класс игрока.
+import samp  # Be sure to import into the main file (this one). Do not pay attention to warning.
+from pysamp import *  # This package contains all the samp methods.
+from pysamp.dialog import Dialog  # This is a class for working with dialogs. Just for example.
+from python.player import Player  # It's a custom player class.
 
 
-samp.config(encoding='cp1251')  # Для отображения кириллицы.
+samp.config(encoding='cp1251')  # To display the Cyrillic alphabet.
 
 
 @on_gamemode_init
@@ -20,7 +20,7 @@ def on_gamemode_init():
 
 
 @Player.on_connect
-@Player.using_pool  # Во всех функциях, которые в качестве аргумента принимают игрока - использовать этот декоратор.
+@Player.using_pool  # In all functions that take a player as an argument - use this decorator.
 def on_player_connect(player: Player):
     player.send_client_message(-1, f'Добро пожаловать на сервер, {player.get_name()}!')
     send_client_message_to_all(-1, f'Игрок {{90ffaa}}{player.get_name()} {{ffffff}}подключился к серверу!')
@@ -30,4 +30,4 @@ def on_player_connect(player: Player):
 @Player.using_pool
 def on_player_disconnect(player: Player, reason: int):
     send_client_message_to_all(-1, f'Игрок {{90ffaa}}{player.get_name()} {{ffffff}}отключился от сервера!')
-    Player.remove_from_pool(player)  # При отключении игрока, обязательно удалять его из пула.
+    Player.remove_from_pool(player)  # When disconnecting a player, be sure to remove him from the pool.
